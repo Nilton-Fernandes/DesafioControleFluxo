@@ -11,6 +11,7 @@ public class Contador {
         int parametroUm = sc.nextInt();
         System.out.println("Digite o segundo parâmetro");
         int parametroDois = sc.nextInt();
+        sc.close();
 
         try {
             contar(parametroUm, parametroDois);
